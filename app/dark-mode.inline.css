@@ -1,12 +1,12 @@
 .uploadTarget__frame {
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
 }
 .uploadTarget__title {
   color: rgb(26, 26, 26) !important;
 }
 .uploadTarget.entered .uploadTarget__title {
   color: rgb(51, 51, 51) !important;
-  border: 1px dashed rgb(168, 160, 149) !important;
+  border: 1px dashed rgb(102, 102, 102) !important;
 }
 .modal.modalWhiteout {
   background-color: rgba(13, 13, 13, 0.9) !important;
@@ -18,17 +18,17 @@
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
 .modal__modal {
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
 }
 .modal__closeButton:focus {
   outline: rgb(51, 51, 51) dotted 1px !important;
 }
 .dialog {
   border: 1px solid rgb(51, 51, 51) !important;
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
 }
 .dialog__arrow {
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
   border-color: rgb(51, 51, 51) !important;
 }
 .unreadConversations {
@@ -39,19 +39,19 @@
 }
 .notifications.g-dark .notifications__viewAll:hover {
   background-color: rgb(204, 204, 204) !important;
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .notifications__empty {
   border-bottom: 1px solid rgb(217, 217, 217) !important;
 }
 .activity__sharingNote-container {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .ownActivity__title {
   color: rgb(51, 51, 51) !important;
 }
 .ownActivity__time {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .ownActivity.inactive::before {
   background-color: rgba(0, 0, 0, 0.7) !important;
@@ -69,7 +69,7 @@
 .g-dark .ownActivity__additional a,
 .g-dark .ownActivity__time,
 .g-dark .ownActivity__user a {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .g-dark .ownActivity__additional a:focus,
 .g-dark .ownActivity__additional a:hover,
@@ -119,7 +119,7 @@
 }
 .profileMenu__newBadge {
   background-color: #CC6F39 !important;
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .header {
   background: rgb(51, 51, 51) !important;
@@ -197,20 +197,20 @@
   background: rgb(0, 7, 25) !important;
 }
 .scheduleBanner__inner {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .scheduleBanner__button.sc-button.sc-button-transparent {
-  border-color: rgb(0, 0, 0) !important;
+  border-color: #181A1B !important;
 }
 .scheduleBanner__button {
-  border: 1px solid rgb(0, 0, 0) !important;
+  border: 1px solid #181A1B !important;
 }
 .trackMonetizationBanner {
   background: rgb(0, 7, 25) !important;
 }
 .gritter-item-wrapper {
   color: rgb(204, 204, 204) !important;
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
   border: 1px solid rgb(51, 51, 51) !important;
 }
 .error .gritter-top,
@@ -261,16 +261,16 @@
 }
 .uploadButton.selected,
 .uploadButton:focus {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .uploadButton.selected {
   background: rgb(238, 238, 238) !important;
 }
 .image__whiteOutline .image__full {
-  border: 2px solid rgb(0, 0, 0) !important;
+  border: 2px solid #181A1B !important;
 }
 .image:focus .image__full {
-  border: 1px dotted rgb(168, 160, 149) !important;
+  border: 1px dotted rgb(102, 102, 102) !important;
 }
 .image:not(.m-loaded) .sc-artwork.sc-artwork-placeholder-blank {
   border: 1px dashed rgb(51, 51, 51) !important;
@@ -280,20 +280,20 @@
   border: 1px solid rgb(204, 204, 204) !important;
 }
 .queue {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .queue__panel {
   border-bottom: 1px solid rgb(26, 26, 26) !important;
 }
 .queue__itemWrapper {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .queue__dropIndicator {
   border-top: 1px solid #CC6F39 !important;
 }
 .queue__dropIndicatorText {
   background-color: rgba(255, 255, 255, 0.6) !important;
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .playbackTimeline__timePassed {
   color: #CC6F39 !important;
@@ -354,14 +354,14 @@ a.playbackSoundBadge__lightLink:hover {
   border-color: rgb(204, 204, 204) transparent transparent !important;
 }
 .playControlsPanel__whyAds {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .playControlsPanel__whyAds:active,
 .playControlsPanel__whyAds:hover {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .playControlsPanel__button {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .l-listen-wrapper .l-about-rows {
   border-right: 1px solid rgb(13, 13, 13) !important;
@@ -370,16 +370,16 @@ a.playbackSoundBadge__lightLink:hover {
   background: rgb(26, 26, 26) !important;
 }
 .fullHero__uploadTime {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .fullHero__playerConsumerSubUpsell {
   background-color: rgba(204, 204, 204, 0.3) !important;
 }
 .listenEngagement {
-  border: 1px solid rgb(0, 0, 0) !important;
+  border: 1px solid #181A1B !important;
 }
 .soundTitle.m-hiddenSound .soundTitle__title {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .soundTitle__uploadTime {
   color: rgb(51, 51, 51) !important;
@@ -388,7 +388,7 @@ a.playbackSoundBadge__lightLink:hover {
   color: rgb(255, 255, 255) !important;
 }
 .listenHero .waveform__emptyMessage {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .playButton.m-stretch {
   border-color: #CC6F39 !important;
@@ -405,7 +405,7 @@ a.playbackSoundBadge__lightLink:hover {
 }
 .genericTrackCount {
   background-color: rgba(255, 255, 255, 0.8) !important;
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .embedPanel__tabLink,
 .embedPanel__upsellTabLink {
@@ -421,7 +421,7 @@ a.playbackSoundBadge__lightLink:hover {
   background: linear-gradient(
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.5) 90%,
-    rgb(0, 0, 0)
+    #181A1B
   ) !important;
 }
 .trackItem__content {
@@ -453,14 +453,14 @@ a.playbackSoundBadge__lightLink:hover {
 }
 .moreActions {
   border: 1px solid rgb(26, 26, 26) !important;
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
 }
 .moreActions__group:not(:first-child) {
   border-top: 5px solid rgb(26, 26, 26) !important;
 }
 .moreActions__button,
 .moreActions__link {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .moreActions__group .moreActions__link {
   color: rgb(204, 204, 204) !important;
@@ -475,7 +475,7 @@ a.playbackSoundBadge__lightLink:hover {
   border-bottom: 1px solid rgb(26, 26, 26) !important;
 }
 .localeSelectorContent {
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
 }
 .ab-centering-div .ab-in-app-message,
 .ab-iam-root.v3 .ab-in-app-message {
@@ -483,7 +483,7 @@ a.playbackSoundBadge__lightLink:hover {
 }
 .ab-centering-div .ab-in-app-message.ab-background,
 .ab-iam-root.v3 .ab-in-app-message.ab-background {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .ab-centering-div .ab-in-app-message .ab-message-text::-webkit-scrollbar-thumb,
 .ab-iam-root.v3 .ab-in-app-message .ab-message-text::-webkit-scrollbar-thumb {
@@ -499,13 +499,13 @@ a.playbackSoundBadge__lightLink:hover {
 }
 .ab-centering-div .ab-in-app-message .ab-message-button:first-of-type,
 .ab-iam-root.v3 .ab-in-app-message .ab-message-button:first-of-type {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
   color: rgb(228, 135, 48) !important;
 }
 .ab-centering-div .ab-in-app-message .ab-message-button:last-of-type,
 .ab-iam-root.v3 .ab-in-app-message .ab-message-button:last-of-type {
   background-color: rgb(228, 135, 48) !important;
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .ab-centering-div .ab-in-app-message .ab-message-button:active::after,
 .ab-iam-root.v3 .ab-in-app-message .ab-message-button:active::after {
@@ -532,13 +532,13 @@ body > .ab-feed .ab-feed-body {
 }
 .ab-feed .ab-card {
   border: 1px solid rgb(47, 47, 47) !important;
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .ab-feed .ab-card .ab-pinned-indicator {
   border-color: transparent rgb(233, 137, 47) transparent transparent !important;
 }
 .ab-feed .ab-card .ab-pinned-indicator .fa-star {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .ab-feed .ab-card .ab-unread-indicator {
   background-color: rgb(233, 137, 47) !important;
@@ -554,7 +554,7 @@ body > .ab-feed .ab-feed-body {
 }
 .ab-feed .ab-feed-buttons-wrapper .ab-close-button,
 .ab-feed .ab-feed-buttons-wrapper .ab-refresh-button {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .dashbox__box {
   border: 1px solid rgb(26, 26, 26) !important;
@@ -569,7 +569,7 @@ body > .ab-feed .ab-feed-body {
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.1),
-    rgb(0, 0, 0) 17px
+    #181A1B 17px
   ) !important;
 }
 .soundBadge.hiddenSound .soundBadge__artwork::after {
@@ -600,7 +600,7 @@ body > .ab-feed .ab-feed-body {
   color: #CC6F39 !important;
 }
 .soundBadge__icon {
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
 }
 .mixedSelectionModule {
   border-bottom: 1px solid rgb(13, 13, 13) !important;
@@ -631,13 +631,13 @@ body > .ab-feed .ab-feed-body {
   ) !important;
 }
 .playableTile.m-dark .playableTile__heading {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .playableTile.m-dark .playableTile__usernameHeading {
   color: rgb(26, 26, 26) !important;
 }
 .playableTile.m-dark .playableTile__usernameHeading:hover {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .selectionPlaylistBanner {
   background: rgb(153, 153, 153) !important;
@@ -653,7 +653,7 @@ body > .ab-feed .ab-feed-body {
   background: rgba(0, 0, 0, 0.1) !important;
 }
 .systemPlaylistBannerItem__trackTitle {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .systemPlaylistBannerItem.m-disabled .systemPlaylistBannerItem__content,
 .systemPlaylistBannerItem.m-disabled .systemPlaylistBannerItem__trackTitle {
@@ -663,23 +663,23 @@ body > .ab-feed .ab-feed-body {
   color: rgb(51, 51, 51) !important;
 }
 .sound__soundActions {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .soundContext__line {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .compactTrackList__moreLink:focus,
 .compactTrackList__moreLink:hover {
   background-color: rgb(13, 13, 13) !important;
 }
 .compactTrackListItem {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .compactTrackListItem.clickToPlay.active,
 .compactTrackListItem.clickToPlay:focus,
 .compactTrackListItem.clickToPlay:hover {
   background-color: rgb(13, 13, 13) !important;
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .compactTrackListItem.active,
 .compactTrackListItem.active .compactTrackListItem__content,
@@ -693,7 +693,7 @@ body > .ab-feed .ab-feed-body {
   color: rgb(204, 204, 204) !important;
 }
 .compactTrackListItem__user {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .compactTrackListItem__number,
 .compactTrackListItem__trackTitle {
@@ -730,22 +730,22 @@ body > .ab-feed .ab-feed-body {
   border-top: 1px solid #CC6F39 !important;
 }
 .commentForm.m-recipientActive .commentForm__recipient {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
   background: rgb(255, 153, 51) !important;
 }
 .commentForm__input {
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
   border: 1px solid rgb(26, 26, 26) !important;
 }
 .commentForm .commentForm__input:focus,
 .commentForm.m-large .commentForm__inputWrapper .commentForm__input:focus {
-  border-color: rgb(168, 160, 149) !important;
+  border-color: rgb(102, 102, 102) !important;
 }
 .commentForm.m-invalid .commentForm__input {
   border-color: #CC6F39 !important;
 }
 .recipientChooser .tokenInput__wrapper {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .recipientChooser.invalid .tokenInput__wrapper {
   border-color: rgb(48, 255, 255) !important;
@@ -762,10 +762,10 @@ body > .ab-feed .ab-feed-body {
   border-bottom: 1px solid rgb(13, 13, 13) !important;
 }
 .readMoreTile__countWrapper {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .userBadgeListItem__image {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .audibleTilePlaceholder::before {
   border: 1px solid rgb(51, 51, 51) !important;
@@ -783,20 +783,20 @@ body > .ab-feed .ab-feed-body {
   border-color: rgb(204, 204, 204) !important;
 }
 .textfield__applyAll:focus {
-  border-color: rgb(168, 160, 149) !important;
+  border-color: rgb(102, 102, 102) !important;
 }
 .textfield__clear {
   background: rgb(26, 26, 26) !important;
 }
 .textfield__clear::after,
 .textfield__clear::before {
-  border-top: 2px solid rgb(0, 0, 0) !important;
+  border-top: 2px solid #181A1B !important;
 }
 .textfield__clear:hover {
   background: rgb(51, 51, 51) !important;
 }
 .textfield__clear:focus {
-  border-color: rgb(168, 160, 149) !important;
+  border-color: rgb(102, 102, 102) !important;
 }
 .commentPopover__username,
 a.commentPopover__username:hover,
@@ -810,7 +810,7 @@ a.commentPopover__username:visited {
   ) !important;
 }
 .commentPopover__body {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .commentPopover.darkText .commentPopover__body {
   color: rgb(204, 204, 204) !important;
@@ -823,10 +823,10 @@ a.commentPopover__username:visited {
   color: #CC6F39 !important;
 }
 .uploadMain__chooserContainer {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .uploadMain__foot {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .uploadMain__foot > .l-footer {
   color: rgb(153, 153, 153) !important;
@@ -835,7 +835,7 @@ a.commentPopover__username:visited {
   color: rgb(153, 153, 153) !important;
 }
 .uploadMain__foot > .l-footer a:not(.localeSelector):hover {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .uploadBackground.imageDidLoad:not(.hasActiveUploads) ~ .uploadMain__foot {
   border-color: rgb(13, 13, 13) !important;
@@ -848,11 +848,11 @@ a.commentPopover__username:visited {
 .uploadBackground__image::after {
   background-image: linear-gradient(
     transparent -50%,
-    rgb(0, 0, 0) 34%
+    #181A1B 34%
   ) !important;
 }
 .quotaMeterWrapper {
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
 }
 .quotaMeter__minutesUsed {
   background: linear-gradient(
@@ -872,24 +872,24 @@ a.commentPopover__username:visited {
   border-color: rgb(48, 255, 255) !important;
 }
 .radioGroup__radio[data-disabled] .radioGroup__labelText {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .activeUpload__hqNote {
   background: rgb(10, 10, 10) !important;
   border: 1px solid rgba(104, 104, 104, 0.2) !important;
 }
 .activeUpload__form {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .activeUpload__shareContainer {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .userUpsell {
   background: url('https://a-v2.sndcdn.com/assets/images/spotlight-99243287.png')
     right 30px top no-repeat rgb(204, 204, 204) !important;
 }
 .upsellBanner__title {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .profileHeaderBackground {
   background: rgb(26, 26, 26) !important;
@@ -901,11 +901,11 @@ a.commentPopover__username:visited {
   background-color: rgba(255, 255, 255, 0.8) !important;
 }
 .featuredProfiles .featuredProfiles__title {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .featuredProfiles.expanded .featuredProfiles__title {
   border-bottom: 1px solid rgb(204, 204, 204) !important;
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .featuredProfiles__item {
   border-bottom: 1px solid rgb(204, 204, 204) !important;
@@ -916,10 +916,10 @@ a.commentPopover__username:visited {
   border-color: rgba(255, 255, 255, 0.3) !important;
 }
 .dropbar__content {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .profileUploadFooter {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .commentBadge:hover .commentBadge__title a {
   color: rgb(204, 204, 204) !important;
@@ -929,26 +929,26 @@ a.commentPopover__username:visited {
 }
 .truncatedUserDescription.m-overflow.m-collapsed
   .truncatedUserDescription__wrapper::after {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)) !important;
+  background: linear-gradient(rgba(0, 0, 0, 0), #181A1B) !important;
 }
 .spotlight.editing .spotlight__item {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .spotlight.editing .spotlight__item:hover {
   border-color: rgb(13, 13, 13) !important;
 }
 .spotlight__upsellCTA {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .spotlightUpsellBanner__background {
   background: rgba(255, 255, 255, 0.8) !important;
 }
 .showSpotlightUpsellBanner.spotlightUpsellBanner {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
   border: 2px dashed rgb(41, 41, 41) !important;
 }
 .userAudibleSearchResults {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .userAudibleSearchResults__item.selected {
   background-color: rgb(13, 13, 13) !important;
@@ -963,16 +963,16 @@ a.commentPopover__username:visited {
   color: rgb(204, 204, 204) !important;
 }
 .trackManager__upsellWrapper {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .editTracksDropdown {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .statsOverview__separator {
   background-color: rgb(13, 13, 13) !important;
 }
 .ui-datepicker {
-  background: rgb(0, 0, 0) !important;
+  background: #181A1B !important;
 }
 .ui-datepicker-header > a:hover:not(.ui-state-disabled) {
   background-color: rgb(13, 13, 13) !important;
@@ -981,7 +981,7 @@ a.commentPopover__username:visited {
   background-color: rgb(26, 26, 26) !important;
 }
 .ui-datepicker-calendar th {
-  color: rgb(168, 160, 149) !important;
+  color: rgb(102, 102, 102) !important;
 }
 .ui-datepicker .ui-datepicker-unselectable .ui-state-default,
 .ui-datepicker .ui-state-disabled .ui-state-default {
@@ -989,14 +989,14 @@ a.commentPopover__username:visited {
 }
 .ui-datepicker .ui-state-default {
   color: rgb(204, 204, 204) !important;
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #181A1B !important;
 }
 .ui-datepicker .ui-state-default.ui-state-highlight {
-  color: rgb(0, 0, 0) !important;
-  background-color: rgb(168, 160, 149) !important;
+  color: #181A1B !important;
+  background-color: rgb(102, 102, 102) !important;
 }
 .ui-datepicker .ui-state-default.ui-state-active {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
   background-color: rgb(51, 136, 221) !important;
 }
 .ui-datepicker
@@ -1038,7 +1038,7 @@ a.commentPopover__username:visited {
   border-bottom: 1px solid rgb(191, 191, 191) !important;
 }
 .statsOverlay__count {
-  color: rgb(0, 0, 0) !important;
+  color: #181A1B !important;
 }
 .statsOverlay::after {
   background: rgba(255, 255, 255, 0.9) !important;
