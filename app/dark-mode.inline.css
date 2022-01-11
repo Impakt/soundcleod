@@ -6,7 +6,7 @@
 }
 .uploadTarget.entered .uploadTarget__title {
   color: rgb(51, 51, 51) !important;
-  border: 1px dashed rgb(102, 102, 102) !important;
+  border: 1px dashed rgb(168, 160, 149) !important;
 }
 .modal.modalWhiteout {
   background-color: rgba(13, 13, 13, 0.9) !important;
@@ -51,7 +51,7 @@
   color: rgb(51, 51, 51) !important;
 }
 .ownActivity__time {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .ownActivity.inactive::before {
   background-color: rgba(0, 0, 0, 0.7) !important;
@@ -69,7 +69,7 @@
 .g-dark .ownActivity__additional a,
 .g-dark .ownActivity__time,
 .g-dark .ownActivity__user a {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .g-dark .ownActivity__additional a:focus,
 .g-dark .ownActivity__additional a:hover,
@@ -106,7 +106,7 @@
 .headerMenu__link.m-highlight,
 .headerMenu__link.m-highlight:focus,
 .headerMenu__link.m-highlight:hover {
-  color: rgb(255, 85, 0) !important;
+  color: #cc4400 !important;
 }
 .headerMenu__link:focus,
 .headerMenu__link:hover {
@@ -118,7 +118,7 @@
   background-color: rgb(13, 13, 13) !important;
 }
 .profileMenu__newBadge {
-  background-color: rgb(255, 85, 0) !important;
+  background-color: #CC6F39 !important;
   color: rgb(0, 0, 0) !important;
 }
 .header {
@@ -154,7 +154,7 @@
   color: rgb(255, 255, 255) !important;
 }
 .header__link.header__goUpsell {
-  color: rgb(255, 85, 0) !important;
+  color: #CC6F39 !important;
 }
 .header__link.header__goUpsell:active,
 .header__link.header__goUpsell:focus,
@@ -241,7 +241,7 @@
 }
 .playControls__bg,
 .playControls__inner {
-  background-color: rgb(13, 13, 13) !important;
+  background-color: rgb(33, 33, 33) !important;
   border-top: 1px solid rgb(49, 49, 49) !important;
 }
 .searchMenu .loading {
@@ -257,7 +257,7 @@
   background-color: rgb(217, 217, 217) !important;
 }
 .uploadButton__status {
-  color: rgb(255, 85, 0) !important;
+  color: #CC6F39 !important;
 }
 .uploadButton.selected,
 .uploadButton:focus {
@@ -270,13 +270,13 @@
   border: 2px solid rgb(0, 0, 0) !important;
 }
 .image:focus .image__full {
-  border: 1px dotted rgb(102, 102, 102) !important;
+  border: 1px dotted rgb(168, 160, 149) !important;
 }
 .image:not(.m-loaded) .sc-artwork.sc-artwork-placeholder-blank {
   border: 1px dashed rgb(51, 51, 51) !important;
 }
 .newItemBadge.newItems__some {
-  background: rgb(255, 85, 0) !important;
+  background: #CC6F39 !important;
   border: 1px solid rgb(204, 204, 204) !important;
 }
 .queue {
@@ -289,14 +289,14 @@
   background-color: rgb(0, 0, 0) !important;
 }
 .queue__dropIndicator {
-  border-top: 1px solid rgb(255, 85, 0) !important;
+  border-top: 1px solid #CC6F39 !important;
 }
 .queue__dropIndicatorText {
   background-color: rgba(255, 255, 255, 0.6) !important;
   color: rgb(0, 0, 0) !important;
 }
 .playbackTimeline__timePassed {
-  color: rgb(255, 85, 0) !important;
+  color: #CC6F39 !important;
 }
 .playbackTimeline__duration {
   color: rgb(204, 204, 204) !important;
@@ -305,11 +305,11 @@
   background-color: rgb(51, 51, 51) !important;
 }
 .playbackTimeline__progressBar {
-  background-color: rgb(255, 85, 0) !important;
+  background-color: #CC6F39 !important;
 }
 .playbackTimeline__progressHandle {
-  border: 1px solid rgb(255, 85, 0) !important;
-  background-color: rgb(255, 85, 0) !important;
+  border: 1px solid #CC6F39 !important;
+  background-color: #CC6F39 !important;
 }
 .volume__sliderWrapper {
   background-color: rgb(13, 13, 13) !important;
@@ -327,10 +327,10 @@
   background-color: rgb(51, 51, 51) !important;
 }
 .volume__sliderHandle {
-  background-color: rgb(255, 85, 0) !important;
+  background-color: #CC6F39 !important;
 }
 .volume__sliderProgress {
-  background: rgb(255, 85, 0) !important;
+  background: #CC6F39 !important;
 }
 a.playbackSoundBadge__lightLink:focus,
 a.playbackSoundBadge__lightLink:hover {
@@ -354,7 +354,7 @@ a.playbackSoundBadge__lightLink:hover {
   border-color: rgb(204, 204, 204) transparent transparent !important;
 }
 .playControlsPanel__whyAds {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .playControlsPanel__whyAds:active,
 .playControlsPanel__whyAds:hover {
@@ -379,7 +379,7 @@ a.playbackSoundBadge__lightLink:hover {
   border: 1px solid rgb(0, 0, 0) !important;
 }
 .soundTitle.m-hiddenSound .soundTitle__title {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .soundTitle__uploadTime {
   color: rgb(51, 51, 51) !important;
@@ -391,8 +391,8 @@ a.playbackSoundBadge__lightLink:hover {
   color: rgb(0, 0, 0) !important;
 }
 .playButton.m-stretch {
-  border-color: rgb(255, 85, 0) !important;
-  background-color: rgb(255, 85, 0) !important;
+  border-color: #CC6F39 !important;
+  background-color: #CC6F39 !important;
 }
 .playButton.m-stretch:active,
 .playButton.m-stretch:focus,
@@ -412,7 +412,7 @@ a.playbackSoundBadge__lightLink:hover {
   background-color: rgb(26, 26, 26) !important;
 }
 .embedPanel__tabLink.active {
-  border-color: rgb(255, 85, 0) !important;
+  border-color: #CC6F39 !important;
 }
 .truncatedAudioInfo__collapse:focus {
   color: rgb(204, 204, 204) !important;
@@ -433,7 +433,7 @@ a.playbackSoundBadge__lightLink:hover {
 }
 .trackItem:not(.m-disabled).active .trackItem__content,
 .trackItem:not(.m-disabled).active .trackItem__trackTitle {
-  color: rgb(255, 85, 0) !important;
+  color: #CC6F39 !important;
 }
 .trackItem:not(.m-disabled).active .trackItem__trackTitle:focus,
 .trackItem:not(.m-disabled).active .trackItem__trackTitle:hover {
@@ -594,10 +594,10 @@ body > .ab-feed .ab-feed-body {
 .soundBadge.active:not(.compact),
 .soundBadge.active:not(.compact).hover,
 .soundBadge.active:not(.compact):hover {
-  border-bottom: 1px solid rgb(255, 85, 0) !important;
+  border-bottom: 1px solid #CC6F39 !important;
 }
 .soundBadge.active .soundTitle__title {
-  color: rgb(255, 85, 0) !important;
+  color: #CC6F39 !important;
 }
 .soundBadge__icon {
   background: rgb(0, 0, 0) !important;
@@ -621,7 +621,7 @@ body > .ab-feed .ab-feed-body {
 .tileGallery__sliderButton:focus::after,
 .tileGallery__sliderPeek:hover .tileGallery__sliderButton,
 .tileGallery__sliderPeek:hover .tileGallery__sliderButton::after {
-  border-color: rgb(255, 85, 0) !important;
+  border-color: #CC6F39 !important;
 }
 .playableTile__actions {
   background: linear-gradient(
@@ -666,20 +666,20 @@ body > .ab-feed .ab-feed-body {
   background-color: rgb(0, 0, 0) !important;
 }
 .soundContext__line {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .compactTrackList__moreLink:focus,
 .compactTrackList__moreLink:hover {
   background-color: rgb(13, 13, 13) !important;
 }
 .compactTrackListItem {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .compactTrackListItem.clickToPlay.active,
 .compactTrackListItem.clickToPlay:focus,
 .compactTrackListItem.clickToPlay:hover {
   background-color: rgb(13, 13, 13) !important;
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .compactTrackListItem.active,
 .compactTrackListItem.active .compactTrackListItem__content,
@@ -687,13 +687,13 @@ body > .ab-feed .ab-feed-body {
 .compactTrackListItem.active .compactTrackListItem__plays,
 .compactTrackListItem.active .compactTrackListItem__trackTitle,
 .compactTrackListItem.active .compactTrackListItem__user {
-  color: rgb(255, 85, 0) !important;
+  color: #CC6F39 !important;
 }
 .compactTrackListItem__content {
   color: rgb(204, 204, 204) !important;
 }
 .compactTrackListItem__user {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .compactTrackListItem__number,
 .compactTrackListItem__trackTitle {
@@ -725,9 +725,9 @@ body > .ab-feed .ab-feed-body {
   border-color: rgb(51, 51, 51) !important;
 }
 .commentForm.m-small.m-invalid .commentForm__avatar::after {
-  border-left: 1px solid rgb(255, 85, 0) !important;
-  border-bottom: 1px solid rgb(255, 85, 0) !important;
-  border-top: 1px solid rgb(255, 85, 0) !important;
+  border-left: 1px solid #CC6F39 !important;
+  border-bottom: 1px solid #CC6F39 !important;
+  border-top: 1px solid #CC6F39 !important;
 }
 .commentForm.m-recipientActive .commentForm__recipient {
   color: rgb(0, 0, 0) !important;
@@ -739,10 +739,10 @@ body > .ab-feed .ab-feed-body {
 }
 .commentForm .commentForm__input:focus,
 .commentForm.m-large .commentForm__inputWrapper .commentForm__input:focus {
-  border-color: rgb(102, 102, 102) !important;
+  border-color: rgb(168, 160, 149) !important;
 }
 .commentForm.m-invalid .commentForm__input {
-  border-color: rgb(255, 85, 0) !important;
+  border-color: #CC6F39 !important;
 }
 .recipientChooser .tokenInput__wrapper {
   background-color: rgb(0, 0, 0) !important;
@@ -765,7 +765,7 @@ body > .ab-feed .ab-feed-body {
   background-color: rgb(0, 0, 0) !important;
 }
 .userBadgeListItem__image {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .audibleTilePlaceholder::before {
   border: 1px solid rgb(51, 51, 51) !important;
@@ -783,7 +783,7 @@ body > .ab-feed .ab-feed-body {
   border-color: rgb(204, 204, 204) !important;
 }
 .textfield__applyAll:focus {
-  border-color: rgb(102, 102, 102) !important;
+  border-color: rgb(168, 160, 149) !important;
 }
 .textfield__clear {
   background: rgb(26, 26, 26) !important;
@@ -796,12 +796,12 @@ body > .ab-feed .ab-feed-body {
   background: rgb(51, 51, 51) !important;
 }
 .textfield__clear:focus {
-  border-color: rgb(102, 102, 102) !important;
+  border-color: rgb(168, 160, 149) !important;
 }
 .commentPopover__username,
 a.commentPopover__username:hover,
 a.commentPopover__username:visited {
-  color: rgb(255, 85, 0) !important;
+  color: #CC6F39 !important;
 }
 .commentPopover__username::before {
   background-image: linear-gradient(
@@ -819,8 +819,8 @@ a.commentPopover__username:visited {
   color: rgb(26, 26, 26) !important;
 }
 .creatorsNavigation__onSoundCloudLinkNewBadge {
-  border: 1px solid rgb(255, 85, 0) !important;
-  color: rgb(255, 85, 0) !important;
+  border: 1px solid #CC6F39 !important;
+  color: #CC6F39 !important;
 }
 .uploadMain__chooserContainer {
   background-color: rgb(0, 0, 0) !important;
@@ -835,7 +835,7 @@ a.commentPopover__username:visited {
   color: rgb(153, 153, 153) !important;
 }
 .uploadMain__foot > .l-footer a:not(.localeSelector):hover {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .uploadBackground.imageDidLoad:not(.hasActiveUploads) ~ .uploadMain__foot {
   border-color: rgb(13, 13, 13) !important;
@@ -872,7 +872,7 @@ a.commentPopover__username:visited {
   border-color: rgb(48, 255, 255) !important;
 }
 .radioGroup__radio[data-disabled] .radioGroup__labelText {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .activeUpload__hqNote {
   background: rgb(10, 10, 10) !important;
@@ -905,7 +905,7 @@ a.commentPopover__username:visited {
 }
 .featuredProfiles.expanded .featuredProfiles__title {
   border-bottom: 1px solid rgb(204, 204, 204) !important;
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .featuredProfiles__item {
   border-bottom: 1px solid rgb(204, 204, 204) !important;
@@ -981,7 +981,7 @@ a.commentPopover__username:visited {
   background-color: rgb(26, 26, 26) !important;
 }
 .ui-datepicker-calendar th {
-  color: rgb(102, 102, 102) !important;
+  color: rgb(168, 160, 149) !important;
 }
 .ui-datepicker .ui-datepicker-unselectable .ui-state-default,
 .ui-datepicker .ui-state-disabled .ui-state-default {
@@ -993,7 +993,7 @@ a.commentPopover__username:visited {
 }
 .ui-datepicker .ui-state-default.ui-state-highlight {
   color: rgb(0, 0, 0) !important;
-  background-color: rgb(102, 102, 102) !important;
+  background-color: rgb(168, 160, 149) !important;
 }
 .ui-datepicker .ui-state-default.ui-state-active {
   color: rgb(0, 0, 0) !important;
@@ -1013,7 +1013,7 @@ a.commentPopover__username:visited {
   border-color: rgb(13, 13, 13) !important;
 }
 .userStatsLegend__item1 {
-  border-color: rgb(255, 85, 0) !important;
+  border-color: #CC6F39 !important;
 }
 .userStatsLegend__item2 {
   border-color: rgb(8, 140, 240) !important;
