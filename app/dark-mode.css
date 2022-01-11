@@ -8,6 +8,10 @@ body {
   filter: invert(0);
 }
 
+.sc-button-secondary:before {
+  filter: invert(1);
+}
+
 .sc-button-lightfg {
   filter: none;
 }
