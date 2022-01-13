@@ -17,6 +17,7 @@ const mainMenu = require('./menu')
 const options = require('./options')
 const SoundCloud = require('./soundcloud')
 const touchBarMenu = require('./touch-bar-menu')
+const mediaService = require('./media-service.js')
 const windowOpenPolicy = require('./window-open-policy')
 const windowState = require('electron-window-state')
 
@@ -104,6 +105,7 @@ app.on('ready', () => {
   if (process.platform === 'darwin') {
     dockMenu(soundcloud)
     touchBarMenu(mainWindow, soundcloud)
+    mediaService(mainWindow, soundcloud)
   }
 
   mainWindowState.manage(mainWindow)
