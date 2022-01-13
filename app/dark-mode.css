@@ -8,9 +8,12 @@ body {
   filter: invert(0);
 }
 
-.sc-button-secondary:before {
+.sc-button-secondary:before,
+.volume__button,
+.playControls__control {
   filter: invert(1);
 }
+
 
 .sc-button-lightfg {
   filter: none;
