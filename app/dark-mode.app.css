@@ -121,9 +121,6 @@ fieldset {
   color: #f50 !important;
   border-color: #f50 !important;
 }
-.sc-button-follow.sc-button-selected {
-  border-color: #f50 !important;
-}
 .sc-button-visual,
 .sc-button-visual:active,
 .sc-button-visual:focus,
