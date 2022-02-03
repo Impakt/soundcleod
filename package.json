@@ -62,7 +62,6 @@
     "electron": "^8.2.5",
     "electron-builder": "^22.6.1",
     "electron-builder-squirrel-windows": "^22.6.1",
-    "electron-media-service": "file:../electron-media-service",
     "electron-notarize": "^0.3.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",

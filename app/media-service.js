@@ -1,6 +1,6 @@
 'use strict'
 
-import MediaService from 'electron-media-service'
+const MediaService = require('electron-media-service')
 
 module.exports = function mediaService(window, soundcloud) {
 
@@ -9,9 +9,18 @@ module.exports = function mediaService(window, soundcloud) {
   myService.startService();
   myService.on('play', () => soundcloud.play());
   myService.on('pause', () => soundcloud.pause());
-  myService.setMetaData({
-    title: 'Never Gonna Give You Up',
-    // Other track meta data here
-  });
-
+  soundcloud.on('play-new-track',
+    ({title, subtitle}) => {
+      console.log('media service updating')
+      myService.setMetaData({
+        id: 0,
+        currentTime: 0,
+        duration: 600000,
+        'title': title,
+        artist: 'Daren',
+        album: subtitle,
+        state: 'playing'
+      })
+      console.log('media service updated')
+    })
 }
