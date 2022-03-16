@@ -144,6 +144,7 @@ app.on('ready', () => {
     mainWindow = null
   })
 
+/*
   if (useMediaKeys) {
     globalShortcut.register('MediaPlayPause', () => {
       soundcloud.playPause()
@@ -159,6 +160,7 @@ app.on('ready', () => {
   } else {
     console.log('Not using media keys')
   }
+*/
 
   menu.events.on('playPause', () => {
     if (isNotFocused()) {
@@ -248,6 +250,7 @@ app.on('ready', () => {
     soundcloud.pause()
   })
 
+/*
   soundcloud.on('play-new-track', ({ title, subtitle, artworkURL }) => {
     mainWindow.webContents.send('notification', {
       title,
@@ -255,6 +258,7 @@ app.on('ready', () => {
       icon: artworkURL
     })
   })
+*/
 
   mainWindow.webContents.once('did-start-loading', () => {
     mainWindow.setTitle('Loading soundcloud.com...')

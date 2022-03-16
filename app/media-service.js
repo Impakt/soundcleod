@@ -4,23 +4,38 @@ const MediaService = require('electron-media-service')
 
 module.exports = function mediaService(window, soundcloud) {
 
+  console.log('media service starting')
   const myService = new MediaService();
 
   myService.startService();
-  myService.on('play', () => soundcloud.play());
-  myService.on('pause', () => soundcloud.pause());
+  console.log('media service started')
+
+  myService.on('play', () => {
+    console.log('media service play')
+    soundcloud.play()
+  });
+  myService.on('pause', () => {
+    console.log('media service pause')
+    soundcloud.pause()
+  });
   soundcloud.on('play-new-track',
     ({title, subtitle}) => {
-      console.log('media service updating')
-      myService.setMetaData({
-        id: 0,
-        currentTime: 0,
-        duration: 600000,
-        'title': title,
-        artist: 'Daren',
-        album: subtitle,
-        state: 'playing'
-      })
-      console.log('media service updated')
+      updateMediaService(title, subtitle)
+    }
+  );
+
+  function updateMediaService(trackTitle, albumTitle) {
+    console.log('media service updating')
+    myService.setMetaData({
+      id: 1234,
+      currentTime: 0,
+      duration: 600,
+      title: trackTitle,
+      artist: 'Daren',
+      album: albumTitle,
+      state: 'playing'
     })
+    console.log('media service updated')
+
+  }
 }
