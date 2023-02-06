@@ -92,7 +92,7 @@ app.on('ready', () => {
     minWidth: 640,
     minHeight: 320,
     webPreferences: {
-      nodeIntegration: false,
+      nodeIntegration: true,
       preload: `${__dirname}/preload.js`
     }
   })

@@ -1,6 +1,6 @@
 'use strict'
 
-const {ipcRenderer} = require('electron')
+const {ipcRenderer, ipcMain} = require('electron')
 
 require('./macos-swipe-navigation').register()
 
@@ -25,11 +25,19 @@ function subtreeCallback(mutationList) {
     } else if (mutation.type === 'childList' && mutation.target !== undefined) {
       if (mutation.target.id.indexOf('gritter-notice-wrapper') !== -1) {
         // reposted popup
+        let gritterTitle = document.querySelector('.gritter-title')
+        const trackTitle = getTitle()
+        console.log(
+          `mutation gritter title is ${gritterTitle} and track title is ${trackTitle}`)
         if (mutation.addedNodes.length > 0
-          && mutation.addedNodes[0].innerText.indexOf('was reposted to')
-          !== -1) {
+          && mutation.addedNodes[0].innerText.indexOf('was reposted to') !== -1
+        ) {
+          if (gritterTitle !== null) {
+            gritterTitle = gritterTitle.innerText
+            gritterTitle = gritterTitle.substr(gritterTitle.length / 2)
+          }
           const oldReposted = isReposted
-          isReposted = true
+          isReposted = trackTitle.indexOf(gritterTitle !== -1)
           if (oldReposted === undefined || isReposted !== oldReposted) {
             ipcRenderer.send('repost', {reposted: isReposted})
           }
@@ -92,6 +100,10 @@ function getTrackURL() {
 function getReposted() {
   // get track from the track's page
   const gritter = document.querySelector('.gritter-with-image p')
+  const gritterTitle = document.querySelector('.gritter-title')
+  const trackTitle = getTitle()
+  console.log(
+    `gritter title is ${gritterTitle} and track title is ${trackTitle}`)
   if (gritter != null) {
     if (gritter.innerText.indexOf('was reposted to') !== -1) {
       return true
@@ -117,6 +129,11 @@ function getReposted() {
     }
   }
   return false
+}
+
+function getTitle() {
+  const nowPlaying = document.querySelector('.playbackSoundBadge__title a').text
+  return nowPlaying.substr(nowPlaying.indexOf(': ') + 2).trim()
 }
 
 const {Notification} = window

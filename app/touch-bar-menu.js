@@ -6,6 +6,8 @@ const {TouchBarScrubber, TouchBarSegmentedControl} = TouchBar
 
 const https = require('https')
 
+let intervalId = null
+
 module.exports = function touchBarMenu(window, soundcloud) {
   const playPause = {
     icon: `${__dirname}/res/play.png`
@@ -25,13 +27,9 @@ module.exports = function touchBarMenu(window, soundcloud) {
   let openTrackLink
 
   const titleScrubber = new TouchBarScrubber({
-    continuous: false,
-    items: [
-      {
-        label: 'Soundcleod'
-      }
-    ],
-    highlight: highlightedIndex => {
+    continuous: false, items: [{
+      label: 'Soundcleod'
+    }], highlight: highlightedIndex => {
       if (openTrackLink !== undefined && highlightedIndex === 1) {
         shell.openExternal(openTrackLink)
       }
@@ -45,20 +43,18 @@ module.exports = function touchBarMenu(window, soundcloud) {
       let loadingFrame = 0
 
       openTrackLink = undefined
-
-      const intervalId = setInterval(() => {
+      if (intervalId !== null) {
+        clearInterval(intervalId)
+      }
+      intervalId = setInterval(() => {
         loadingFrame = loadingFrame > 10 ? 0 : loadingFrame + 1
-        titleScrubber.items = [
-          {
-            label: ''
-          },
-          {
-            icon: `${__dirname}/res/ajax${loadingFrame}.png`
-          },
-          {
-            label: displayTitle
-          }
-        ]
+        titleScrubber.items = [{
+          label: ''
+        }, {
+          icon: `${__dirname}/res/ajax${loadingFrame}.png`
+        }, {
+          label: displayTitle
+        }]
       }, 80)
       https.get(artworkURL, (res) => {
         const data = []
@@ -67,31 +63,26 @@ module.exports = function touchBarMenu(window, soundcloud) {
         })
         res.on('end', () => {
           clearInterval(intervalId)
-          titleScrubber.items = [
-            {
-              label: ''
-            },
-            {
-              icon: nativeImage
-                .createFromBuffer(Buffer.concat(data))
-                .resize({height: 30, width: 30})
-            },
-            {
-              label: displayTitle
-            }
-          ]
+          intervalId = null
+          titleScrubber.items = [{
+            label: ''
+          }, {
+            icon: nativeImage
+              .createFromBuffer(Buffer.concat(data))
+              .resize({height: 30, width: 30})
+          }, {
+            label: displayTitle
+          }]
           openTrackLink = trackURL
         })
         res.on('error', () => {
           clearInterval(intervalId)
-          titleScrubber.items = [
-            {
-              label: ''
-            },
-            {
-              label: displayTitle
-            }
-          ]
+          intervalId = null
+          titleScrubber.items = [{
+            label: ''
+          }, {
+            label: displayTitle
+          }]
         })
       })
       if (trackReposted !== isReposted) {
@@ -116,9 +107,7 @@ module.exports = function touchBarMenu(window, soundcloud) {
   })
 
   const touchBarSegmentedControl = new TouchBarSegmentedControl({
-    segmentStyle: "rounded",
-    mode: "buttons",
-    change: selectedIndex => {
+    segmentStyle: "rounded", mode: "buttons", change: selectedIndex => {
       if (selectedIndex === 0) {
         soundcloud.previousTrack()
       } else if (selectedIndex === 1) {
@@ -134,10 +123,7 @@ module.exports = function touchBarMenu(window, soundcloud) {
   resetTouchBar()
 
   const touchBar = new TouchBar({
-    items: [
-      touchBarSegmentedControl,
-      titleScrubber
-    ]
+    items: [touchBarSegmentedControl, titleScrubber]
   })
   window.setTouchBar(touchBar)
 
@@ -147,11 +133,7 @@ module.exports = function touchBarMenu(window, soundcloud) {
     } else {
       repost.icon = `${__dirname}/res/repost.png`
     }
-    touchBarSegmentedControl.segments = [
-      {icon: `${__dirname}/res/previous.png`},
-      playPause,
-      {icon: `${__dirname}/res/next.png`},
-      repost
-    ]
+    touchBarSegmentedControl.segments = [{icon: `${__dirname}/res/previous.png`},
+      playPause, {icon: `${__dirname}/res/next.png`}, repost]
   }
 }
